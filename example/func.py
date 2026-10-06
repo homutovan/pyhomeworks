@@ -18,7 +18,12 @@ def say_hello_person(action="greet"):
 
 # result = say_hello_person("errgerg")
 
-def add(a, b):
+def add(a: int, b: isinstance) -> int:
+    """Функция выполняет сложение
+        аргументов и возвращает результат
+
+        Пример: add (2, 3) -> 5
+    """
     return  a + b
 
 def div(a: int, b: int) -> float | None:
